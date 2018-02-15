@@ -8,7 +8,7 @@ a {
   color: #03a678;
 }
 a:hover {
-  color: #025b42;
+  color: #0F232B;
 }
 body {
   font-size: 14px;
@@ -43,7 +43,7 @@ h3,
   border-width: 0;
 }
 .navbar-inverse .container {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0F232B;
 }
 .navbar-inverse .navbar-brand {
   color: #fff;

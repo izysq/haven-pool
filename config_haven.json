@@ -1,7 +1,7 @@
 {
-    "coin": "Sumokoin",
-    "symbol": "SUMO",
-    "coinUnits": 1000000000,
+    "coin": "Haven",
+    "symbol": "XHV",
+    "coinUnits": 1000000000000,
     "coinDifficultyTarget": 240,
 
     "logging": {
@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "Sumoo64zh7dRFyB8dgDWZMLmzKBgGXYWZCG4NBF2VcvzEuiSQpMjyyiYJ1Ra696pZu56PPFQNBDdB1rZjyeX1RVKeWZgHg7pTxj",
+        "poolAddress": "hvxyFAT6vKfGNjfHQtHsKRjeLbj2GkPxzjKWxUqUJyZ72RE6n7BtFAT7719x2pb4HDEVofNFC1kfFgy3VpU4ue73ADccYkE8Jg",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslKey": "key.pem",
@@ -31,32 +31,14 @@
                 "desc": "Low end hardware"
             },
             {
-                "port": 3334,
-                "difficulty": 2000,
-                "desc": "Low end hardware (SSL protected)",
-                "type": "SSL"
-            },
-            {
-                "port": 4444,
+                "port": 5555,
                 "difficulty": 10000,
                 "desc": "Mid range hardware"
             },
             {
-                "port": 4445,
-                "difficulty": 10000,
-                "desc": "Mid range hardware (SSL protected)",
-                "type": "SSL"
-            },
-            {
-                "port": 5555,
+                "port": 7777,
                 "difficulty": 20000,
                 "desc": "High end hardware"
-            },
-            {
-                "port": 5555,
-                "difficulty": 20000,
-                "desc": "High end hardware (SSL protected)",
-                "type": "SSL"
             },
             {
                 "port": 6666,
@@ -64,13 +46,6 @@
                 "desc": "Hidden port",
                 "hidden": true
             },
-            {
-                "port": 6667,
-                "difficulty": 30000,
-                "desc": "Hidden port (SSL protected)",
-                "hidden": true,
-                "type": "SSL"
-            }
         ],
         "varDiff": {
             "minDiff": 2000,
@@ -104,10 +79,10 @@
         "interval": 10800,
         "maxAddresses": 30,
         "mixin": 12,
-        "transferFee": 10000000,
-        "minPayment": 2000000000,
-        "maxTransactionAmount": 500000000000,
-        "denomination": 10000000,
+        "transferFee": 5000000000,
+        "minPayment": 1000000000000,
+        "maxTransactionAmount": 5000000000000000,
+        "denomination": 100000000000,
         "useDynamicTransferFee": true,
         "transferFeePerPayee": 4000000,
         "minerPayFee": true

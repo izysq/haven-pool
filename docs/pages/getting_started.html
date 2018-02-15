@@ -1,0 +1,102 @@
+<style>
+    hr{
+        border-top-color: #d9d9d9;
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+    #miningPorts > .stats{
+        width: auto !important;
+        margin-right: 70px;
+        margin-left: 15px;
+        display: inline-block;
+    }
+    #miningPorts > .stats:last-child{
+        margin-right: 0;
+    }
+    .getting_started_windows{
+        line-height: 40px;
+    }
+    #getting_started_list > li{
+        margin-bottom: 20px;
+    }
+    #mining_apps > tr:first-child > td{
+        padding-top: 35px;
+    }
+    #mining_apps > tr > td{
+        border-top: none;
+    }
+    #mining_apps > tr:nth-child(even) > td{
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 20px;
+    }
+    #mining_apps > tr:nth-child(odd) > td{
+        padding-top: 20px;
+    }
+    #mining_apps{
+        margin-top: 10px;
+    }
+    .miningAppTitle{
+        font-weight: bold;
+    }
+    .exampleAddress{
+        font-style: italic;
+    }
+    #cpuminer_code{
+        display: inline-block;
+        white-space: normal;
+    }
+</style>
+
+
+<h3>Start Mining Now <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> </h3>
+<p class="getting_started_windows">
+    To get started download the correct miner for your rig:
+    <p>Nvidia: <a class="btn btn-default btn-sm" target="_blank" href="https://github.com/KlausT/ccminer-cryptonight/releases"><i class="fa fa-download"></i> Download</a></p>
+    <p>AMD: <a class="btn btn-default btn-sm" target="_blank" href="https://bitcointalk.org/index.php?topic=638915.0"><i class="fa fa-download"></i> Download</a></p></p>
+    <p>CPU: <a class="btn btn-default btn-sm" target="_blank" href="https://bitcointalk.org/index.php?topic=647251.0"><i class="fa fa-download"></i> Download</a></p></p>
+</p>
+<p><b>Instructions: </b></p>
+  <ol>
+    <li>Download a miner from above and extract the contents to a folder.</li>
+    <li>Create a .bat file e.g. haven-mine.bat in that folder and paste the code below:</li>
+    <br />
+    <div>Nvidia: </div>
+    <code>ccminer-cryptonote.exe -o stratum+tcp://45.55.31.18:7777 -u YOUR_WALLET_ADDRESS</code>
+    <br />
+    <div>AMD: </div>
+    <code>NsGpuCNMiner.exe -o stratum+tcp://45.55.31.18:7777 -u YOUR_WALLET_ADDRESS</code>
+    <br />
+    <div>CPU: </div>
+    <code>NsCpuCNMiner64.exe -o stratum+tcp://45.55.31.18:7777 -u YOUR_WALLET_ADDRESS</code>
+    <br />
+    <br />
+    <li>Save the .bat file and then run it by double clicking. You are now mining on the Haven network.</li>
+  </ol>
+
+  <p><b>Note:</b> if you do not have a wallet address you must first create one by downloading a wallet from <a target="_blank" href="http://havenprotocol.com/">here</a></p>
+<hr>
+
+<h3>Wallet & Daemon Software</h3>
+<p>
+    <ul>
+        <li><a target="_blank" href="https://github.com/havenprotocol/haven">Haven Daemon</a></li>
+        <li><a target="_blank" href="http://havenprotocol.com/">Wallet Downloads</a></li>
+        <!-- <li>Haven information and news on its <a href="https://bitcointalk.org/index.php?topic=583449.0">BitcoinTalk announcement thread</a></li> -->
+    </ul>
+</p>
+
+<hr>
+
+
+
+<script>
+
+    currentPage = {
+        destroy: function(){
+
+        },
+        update: function(){
+
+        }
+    };
+</script>
