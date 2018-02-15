@@ -50,7 +50,7 @@ hr {
   color: #7C7C7C;
 }
 .stats > div:not(#addressError) > i.fa {
-  color: orange;
+  color: #0f242c;
 }
 .stats > div:not(#addressError) > span:not(.input-group-btn):first-of-type {
   color: #333;
