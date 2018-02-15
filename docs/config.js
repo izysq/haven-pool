@@ -1,4 +1,4 @@
-var api = "";
+var api = "http://45.55.31.18:8117";
 
 var poolHost = "";
 
