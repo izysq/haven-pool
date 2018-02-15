@@ -1,6 +1,6 @@
 var api = "http://45.55.31.18:8117";
 
-var poolHost = "";
+var poolHost = "45.55.31.18";
 
 var irc = "irc.freenode.net/#haven-pools";
 
