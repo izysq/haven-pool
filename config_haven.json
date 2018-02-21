@@ -2,7 +2,7 @@
     "coin": "Haven",
     "symbol": "XHV",
     "coinUnits": 1000000000000,
-    "coinDifficultyTarget": 240,
+    "coinDifficultyTarget": 120,
 
     "logging": {
         "files": {
@@ -45,7 +45,7 @@
                 "difficulty": 30000,
                 "desc": "Hidden port",
                 "hidden": true
-            },
+            }
         ],
         "varDiff": {
             "minDiff": 2000,
@@ -78,7 +78,7 @@
         "enabled": true,
         "interval": 10800,
         "maxAddresses": 30,
-        "mixin": 12,
+        "mixin": 4,
         "transferFee": 5000000000,
         "minPayment": 1000000000000,
         "maxTransactionAmount": 5000000000000000,
@@ -111,12 +111,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 19734
+        "port": 17750
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 19735
+        "port": 8082
     },
 
     "redis": {
